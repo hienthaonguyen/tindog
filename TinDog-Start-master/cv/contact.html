@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+        <title>Contact Information</title>
+    </head>
+    <body>
+        <h1>My Contact Details</h1>
+        <p>  
+            <br>
+            Linkedln: <em><a href="https://www.svsu.edu/">Hien Nguyen</a></em>
+            <br>
+            Github: <em><a href="https://github.com/hienthaonguyen">hienthaonguyen</a></em>
+            <br>
+            Email Address: <em>hienthaonguyen118@gmail.com</em>
+            
+        </p>
+        <!-- action in this case means that if a user sends any message, it will go to my gmail -->
+        <!-- enctype = "text/plain" will remove some unmeaningful symbols in the message while sending email -->
+        <form class="" action = "mailto:hienthaonguyen118@gmail.com" method = "post" enctype="text/plain">
+            <lable>Your Name:</lable>
+            <input type = "text" name ="yourName" value =""><br>
+            <!-- <input type = "color" name = "" value =""> <br> -->
+
+            <!-- <label>Do you want to sign up to the email list?</label>
+            <input type = "checkbox" name ="" value =""> -->
+            <label>Email:</label> 
+            <input type = "email" name = "yourEmail" value = ""><br>
+            <label>Your message:</label><br>
+            <textarea name="yourMessage" rows = "10" cols = "30"></textarea><br>
+            <input type = "submit" name ="">
+
+        </form>
+    </body>
+</html>
+    
